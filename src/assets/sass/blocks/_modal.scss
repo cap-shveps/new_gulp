@@ -1,0 +1,23 @@
+/* Модальные окна */
+
+/* Затемнение заднего фона */
+.overlay { 
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background-color: rgba($color: #000000, $alpha: 0.56);
+}
+/* Разделил от overlay, для оптимизации на мобильных устроиствах, overlay сползал */
+.window { 
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+}
+/* Модальные окна */
+.modal {
+    margin: 0;
+}

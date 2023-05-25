@@ -1,0 +1,34 @@
+/* Доп. библиотеки */
+@import 'libs/bootstrap-reboot.min'; /* Сброс стандартных свойств браузеров */
+/* @import 'libs/bootstrap-grid.min'; */ /* Bootstrap контейнеры */
+@import 'libs/fonts'; /* Шрифты */
+/* @import 'libs/slick'; */  /* библиотека слайдеров */
+/* @import 'libs/animate'; */ /* библиотека анимаций */
+
+@import 'base/variables', 'base/mixins';
+
+*{
+    font-family: 'name_fonts', sans-serif; /* Стандартный шрифт сайта */
+}
+
+/* Если не подключена библиотека bootstrap-grid, стандартный контейнер */
+.container { 
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+/* Блоки по БЭМ */
+/* @import 'base/animations'; */
+@import 'blocks/header';
+/* @import 'blocks/promo'; */
+/* @import 'blocks/buttons'; */
+@import 'blocks/title';
+@import 'blocks/subheader';
+/* @import 'blocks/forms'; */
+/* @import 'blocks/reviews'; */
+@import 'blocks/footer';
+/* @import 'blocks/modal'; */
+/* @import 'blocks/pageup'; */
+
+/* Адаптация сайта */
+@import 'base/media'; 

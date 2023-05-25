@@ -1,0 +1,15 @@
+/* БЭМ - вверхняя часть сайта */
+.header {
+    margin: 0;
+    margin-left: 500px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    p {
+        text-align: center;
+        color: #18832432;
+    }
+}
